@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: rgb(196, 233, 255);
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.nav {
+    
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: rgb(196, 233, 255);
+  
+}
+.nav-item{
+flex: 1 20%;
+}
+
+.nav-icon{
+    margin-right: 5px;
+    color: rgb(88, 85, 85);
+}
+
+/* second row */
+.dialog-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.dialog-item:nth-child(1) h5{
+    color: blue;
+    margin-top: 40px;
+    
+}
+.fa-exclamation-circle{
+    margin-right: 10px;
+}
+.fa-chevron-right{
+    margin-left: 5px;
+}
+
+
+.dialog-item:nth-child(2) small{
+    color: grey;
+    text-decoration: underline;
+}
+
+/* third row */
+
+.box{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+}
+
+.box > *{
+   margin-left: 10px;
+}
+
+.caro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+
+.caro img{
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
+.caro-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f2f2f2;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+
+.caro-two img{
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
